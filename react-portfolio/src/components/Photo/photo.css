@@ -1,0 +1,18 @@
+
+.photoback {
+    z-index: 1;
+    width: 350px;
+    align-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.photo {
+    z-index: 2;
+    margin-left: 25px;
+}
+
+#mugshot {
+    width: 300px;
+    height: auto;
+}
