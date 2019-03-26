@@ -1,5 +1,8 @@
 
 #row1 {
-    float: left;
-    width: 100%;
+    padding-top: 20px;
+}
+
+#row2 {
+    padding-top: 40px;
 }

@@ -2,13 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "../../react-portfolio/src/pages/About/About";
 
+import "./App.css"
+
 function App() {
   return (
-    <Router>
-      <div>
-        <Route exact path="/" component={About} />
-      </div>
-    </Router>
+    <div className="background">
+      <Router>
+          <Route exact path="/" component={About} />
+      </Router>
+    </div>
   );
 }
 

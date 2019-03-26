@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
 import Photo from "../../components/Photo/Photo";
 import "./about.css";
+import { Container, Row, Col } from 'react-bootstrap';
 
 class About extends Component {
     render() {
         return (
-            <div>
-                <div className="row" id="row1">
-                    <div className="col lg-3">
-                    Name: Howell, Michael
-                    <br></br>
-                    Alias: 
-                    <br></br>
-                    Status: Searching for job
-                    </div>
-                    <div className="col lg-3">
-                    <Photo />
-                    </div>
-                </div>
-                <div className="row">
-                </div>
-            </div>
+            <Container>
+                <Row id="row1">
+                    <Col lg="6" id="polaroid">
+                        <Photo />
+                    </Col>
+                    <Col lg="6">
+                        Name: Howell, Michael
+                <br></br>
+                        Alias: "The New Guy"
+                <br></br>
+                        Status: Searching for job
+                </Col>
+                </Row>
+                <Row id="row2">
+                    <Col lg="2"></Col>
+                    <Col>
+                        REMARKS:
+                    </Col>
+                    <Col lg="2"></Col>
+                </Row>
+            </Container>
         );
     }
 }
