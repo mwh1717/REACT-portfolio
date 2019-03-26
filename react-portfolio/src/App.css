@@ -1,4 +1,14 @@
 
+@font-face {
+  font-family: "Trixie";
+  src: url(TrixieText.ttf) format("truetype");
+}
+
+* { 
+  font-family: "Trixie", Verdana, Tahoma;
+  font-weight: bold;
+}
+
 .App {
   text-align: center;
 }
@@ -9,12 +19,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-width: 100vh;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   overflow: hidden;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  
 }
