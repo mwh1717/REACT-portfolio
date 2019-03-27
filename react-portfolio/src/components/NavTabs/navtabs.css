@@ -21,3 +21,48 @@ ul {
 .nav-link:hover {
     color: grey;
 }
+
+@media only screen and (max-width: 320px) {
+    .nav-item {
+        margin-left: 1.75%;
+    }
+
+    .nav-link {
+        color: black;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+    .nav-item {
+        width: 33.3%;
+        text-align: center;
+    }
+
+    .nav-link {
+        color: black;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 415px) {
+    /* phones */
+    .nav-item {
+        width: 33.3%;
+        text-align: center;
+    }
+
+    .nav-link {
+        color: black;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (min-width: 416px) and (max-width: 1080px) {
+    /* tablets */
+
+}

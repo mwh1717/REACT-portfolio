@@ -7,7 +7,7 @@
 }
 
 #row1 {
-    padding-top: 75px;
+    padding-top: 0px;
 }
 
 #row2 {
@@ -17,10 +17,289 @@
 #remarks {
     border: 2px solid black;
     padding: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 #remark {
     font-size: 22px;
     font-weight: bolder;
+}
+
+.box {
+    background-color: black;
+}
+
+button {
+    z-index: 4;
+    font-family: "Stamp", Verdana, Tahoma;
+    position: relative;
+    font-size: 70px;
+    font-weight: normal;
+    top: 110px;
+    left: 205px;
+    background: none;
+    border: none;
+    -ms-transform:rotate(45deg); /* IE9 */
+	-moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+	-o-transform: rotate(45deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(45deg);  /* Saf3.1+ */
+    transform: rotate(45deg);  /* Newer browsers */
+    color: red;
+}
+
+#here {
+    font-family: "Trixie", Verdana, Tahoma;
+    color: black;
+    font-size: 18px;
+}
+
+button:hover {
+    color: rgb(155, 0, 0);
+}
+
+button:focus {
+    outline: none;
+}
+
+.noBox {
+    display: inline;
+}
+
+.blackBox {
+    display: inline;
+    background: black;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 320px) {
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    button {
+        z-index: 4;
+        font-family: "Stamp", Verdana, Tahoma;
+        position: relative;
+        font-size: 70px;
+        font-weight: normal;
+        top: 105px;
+        left: 35px;
+        background: none;
+        border: none;
+        -ms-transform:rotate(45deg); /* IE9 */
+        -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+        -o-transform: rotate(45deg);  /* Opera 10.5 */
+        -webkit-transform: rotate(45deg);  /* Saf3.1+ */
+        transform: rotate(45deg);  /* Newer browsers */
+        color: red;
+    }
+
+    #polaroid {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #row1 {
+        position: relative;
+        bottom: 25px;
+        padding-top: 0px;
+    }
+
+    #info {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #row2 {
+        position: relative;
+        bottom: 25px;
+        padding-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #remarks {
+        border: 2px solid black;
+        padding: 25px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    button {
+        z-index: 4;
+        font-family: "Stamp", Verdana, Tahoma;
+        position: relative;
+        top: 120px;
+        left: 60px;
+        font-size: 70px;
+        font-weight: normal;
+        background: none;
+        border: none;
+        -ms-transform:rotate(45deg); /* IE9 */
+	    -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+	    -o-transform: rotate(45deg);  /* Opera 10.5 */
+	    -webkit-transform: rotate(45deg);  /* Saf3.1+ */
+        transform: rotate(45deg);  /* Newer browsers */
+        color: red;
+    }
+
+    #polaroid {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #row1 {
+        padding-top: 0%;
+    }
+
+    #info {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #row2 {
+        padding-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #remarks {
+        border: 2px solid black;
+        padding: 25px;
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 415px) {
+    /* phones */
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    button {
+        z-index: 4;
+        font-family: "Stamp", Verdana, Tahoma;
+        position: relative;
+        top: 120px;
+        left: 90px;
+        font-size: 70px;
+        font-weight: normal;
+        background: none;
+        border: none;
+        -ms-transform:rotate(45deg); /* IE9 */
+	    -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+	    -o-transform: rotate(45deg);  /* Opera 10.5 */
+	    -webkit-transform: rotate(45deg);  /* Saf3.1+ */
+        transform: rotate(45deg);  /* Newer browsers */
+        color: red;
+    }
+
+    #polaroid {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #row1 {
+        padding-top: 0%;
+    }
+
+    #info {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #row2 {
+        padding-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #remarks {
+        border: 2px solid black;
+        padding: 25px;
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 416px) and (max-width: 768px) {
+
+    button {
+        z-index: 4;
+        font-family: "Stamp", Verdana, Tahoma;
+        position: relative;
+        top: 120px;
+        left: 70px;
+        font-size: 70px;
+        font-weight: normal;
+        background: none;
+        border: none;
+        -ms-transform:rotate(45deg); /* IE9 */
+	    -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+	    -o-transform: rotate(45deg);  /* Opera 10.5 */
+	    -webkit-transform: rotate(45deg);  /* Saf3.1+ */
+        transform: rotate(45deg);  /* Newer browsers */
+        color: red;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        box-sizing: content-box;
+    }
+
+    #row2 {
+        padding-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
+    /* tablets */
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        box-sizing: content-box;
+    }
+
+
 }

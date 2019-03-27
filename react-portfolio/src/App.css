@@ -4,6 +4,11 @@
   src: url(TrixieText.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Stamp";
+  src: url(kgtribecastamp.ttf) format("truetype");
+}
+
 * { 
   font-family: "Trixie", Verdana, Tahoma;
   font-weight: bold;
@@ -23,4 +28,14 @@
   min-height: 100%;
   overflow: hidden;
   
+}
+
+@media only screen and (max-width: 415px) {
+  /* phones */
+  
+}
+
+@media only screen and (min-width: 416px) and (max-width: 1080px) {
+  /* tablets */
+
 }

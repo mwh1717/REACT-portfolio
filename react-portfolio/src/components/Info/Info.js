@@ -5,11 +5,11 @@ import css from "./css.png";
 import js from "./js.jpg";
 import react from "./react.jpg";
 
-function Info () {
+function Info (props) {
     return (
         <div className="info">
             <div className="row" id="data">Legal Name: Howell, Michael</div>
-            <div className="row" id="data">Known Alias: "The New Guy"</div>
+            <div className="row" id="data">Known Alias: "<div className={`${props.show  ? "blackBox" : "noBox"}`}><span className={`${props.show  ? "hide" : ""}`}>The New Guy</span></div>"</div>
             <div className="row" id="data">Status: Searching for job</div>
             <div className="row" id="data">Proficiencies:</div>
             <div className="row" id="pics">
@@ -17,7 +17,8 @@ function Info () {
                 <div col lg-3 ><img src={css} alt="css logo" id="css" /></div>
                 <div col lg-3 ><img src={js} alt="js logo" id="js" /></div>
                 <div col lg-3 ><img src={react} alt="react logo" id="react" /></div>
-            </div>  
+            </div>
+
         </div>
 
     )

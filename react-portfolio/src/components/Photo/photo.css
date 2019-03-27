@@ -1,7 +1,7 @@
 
 .photoback {
     z-index: 1;
-    width: 325px;
+    width: 310px;
     align-content: center;
     padding-bottom: 60px;
     padding-top: 25px;
@@ -11,11 +11,38 @@
 
 .photo {
     z-index: 2;
-    margin-left: 37.5px;
+    margin-left: 30px;
 }
 
 #mugshot {
     width: 250px;
     height: auto;
     
+}
+
+@media only screen and (max-width: 415px) {
+    /* phones */
+
+    #mugshot {
+        width: 100%;
+    }
+    
+    .photoback {
+        z-index: 1;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .photo {
+        z-index: 2;
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 416px) and (max-width: 1080px) {
+    /* tablets */
+
 }

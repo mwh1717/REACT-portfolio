@@ -19,3 +19,37 @@ img {
     margin-top: 15px;
     justify-content: center;
 }
+
+@media only screen and (max-width: 321px) {
+    .info {
+        border: 2px solid black;
+        padding: 10px;
+        height: 100%;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 415px) {
+    /* phones */
+    .info {
+        border: 2px solid black;
+        padding: 10px;
+        height: 100%;
+        font-size: 18px;
+    }
+
+    #data {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 768px) {
+    .info {
+        border: 2px solid black;
+        padding: 10px;
+        height: 100%;
+        font-size: 16px;
+    }
+}
