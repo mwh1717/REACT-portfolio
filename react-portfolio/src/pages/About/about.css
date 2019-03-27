@@ -29,7 +29,7 @@
     background-color: black;
 }
 
-button {
+#redactBut {
     z-index: 4;
     font-family: "Stamp", Verdana, Tahoma;
     position: relative;
@@ -53,11 +53,11 @@ button {
     font-size: 18px;
 }
 
-button:hover {
+#redactBut:hover {
     color: rgb(155, 0, 0);
 }
 
-button:focus {
+#redactBut:focus {
     outline: none;
 }
 
@@ -81,7 +81,7 @@ button:focus {
         padding: 0;
     }
 
-    button {
+    #redactBut {
         z-index: 4;
         font-family: "Stamp", Verdana, Tahoma;
         position: relative;
@@ -143,7 +143,7 @@ button:focus {
         padding: 0;
     }
 
-    button {
+    #redactBut {
         z-index: 4;
         font-family: "Stamp", Verdana, Tahoma;
         position: relative;
@@ -203,7 +203,7 @@ button:focus {
         padding: 0;
     }
 
-    button {
+    #redactBut {
         z-index: 4;
         font-family: "Stamp", Verdana, Tahoma;
         position: relative;
@@ -259,7 +259,7 @@ button:focus {
 
 @media only screen and (min-width: 416px) and (max-width: 768px) {
 
-    button {
+    #redactBut {
         z-index: 4;
         font-family: "Stamp", Verdana, Tahoma;
         position: relative;

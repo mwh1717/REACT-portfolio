@@ -2,8 +2,8 @@ import React from "react";
 import "./info.css";
 import html from "./html.png";
 import css from "./css.png";
-import js from "./js.jpg";
-import react from "./react.jpg";
+import js from "./js.png";
+import react from "./react.png";
 
 function Info (props) {
     return (

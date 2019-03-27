@@ -20,7 +20,7 @@ class About extends Component {
     render() {
         return (
             <Container>
-                <button onClick={()=>this.redact()}><div id="here">click here to</div>REDACT</button>
+                <button id="redactBut" onClick={()=>this.redact()}><div id="here">click here to</div>REDACT</button>
                 <Row id="row1">
                     <Col lg="6" md="6" sm="12" id="polaroid">
                         <Photo />
