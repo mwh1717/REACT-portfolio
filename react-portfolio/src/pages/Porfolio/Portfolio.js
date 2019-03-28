@@ -21,7 +21,7 @@ class Portfolio extends Component {
                                     <li id="cardItem">Developed application logic, simulating an agile work space by delivering expected functionality within a given time frame. </li>
                                     <li id="cardItem">Demonstrated leadership skills by providing direction and mentoring to teammates having difficulties with concepts. </li>
                             </Card.Text>
-                            <Button id="enterSite" href="https://mwh1717.github.io/outdoor-application/" target="_blank">VIEW SITE</Button>
+                            <Button id="enterSiteMove" href="https://mwh1717.github.io/outdoor-application/" target="_blank">VIEW SITE</Button>
                         </Card.Body>
                     </Card>
                     <Card id="travCard">
