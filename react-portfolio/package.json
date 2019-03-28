@@ -2,6 +2,11 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ],
   "engines": {
     "npm": "5.7.1"
   },
